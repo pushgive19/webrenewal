@@ -1,0 +1,72 @@
+.main__sns {
+  margin: 100px 0;
+}
+.sns__title {
+  text-align: center;
+  height: 60px;
+}
+.main__sns .sns__icon {
+  display: flex;
+  justify-content: center;
+}
+.main__sns .icon__item .icon {
+  margin-right: 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 100%;
+  padding: 5px;
+}
+.main__sns .icon__item:last-child .icon {
+  margin: 0;
+}
+.sns__img {
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+}
+.sns__img .img__item {
+  /* background-color: pink; */
+  width: 285px;
+  height: 285px;
+  margin: 0 20px 20px 0;
+}
+.sns__img .img__item:nth-child(4),
+.sns__img .img__item:nth-child(8) {
+  margin-right: 0;
+}
+.img__item {
+  position: relative;
+}
+.img__item .sns__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.img__item:hover .sns__bg {
+  opacity: 1;
+}
+.img__item .icon {
+  /* opacity: 0; */
+  cursor: pointer;
+  margin: 0 5px;
+  stroke: #ffffff;
+  transition: fill 0.3s ease-in-out;
+  fill: transparent;
+  transition-property: fill stroke;
+  transition-duration: 0.3s 0s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0 0.3s;
+}
+.img__item .icon:hover {
+  fill: #d0101b;
+  /* stroke: transparent; */
+}

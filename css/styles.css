@@ -1,0 +1,102 @@
+@import url("reset.css");
+@import url("banner.css");
+@import url("header.css");
+@import url("main-slide.css");
+@import url("main-find.css");
+@import url("main-gear.css");
+@import url("main-news.css");
+@import url("main-sns.css");
+@import url("footer.css");
+@import url("as.css");
+@import url("map.css");
+@import url("swiper-bundle.min.css");
+@import url("product.css");
+@font-face {
+  font-family: "GmarketSansTTFMedium";
+  src: url("../font/gmarket-medium/GmarketSansTTFMedium.eot");
+  src: url("../font/gmarket-medium/GmarketSansTTFMedium.eot")
+      format("embedded-opentype"),
+    url("../font/gmarket-medium/GmarketSansTTFMedium.svg") format("svg"),
+    url("../font/gmarket-medium/GmarketSansTTFMedium.ttf ") format("truetype"),
+    url("../font/gmarket-medium/GmarketSansTTFMedium.woff") format("woff"),
+    url("../font/gmarket-medium/GmarketSansTTFMedium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "cocogoose_proitalic";
+  src: url("../font/cocogoose_pro/cocogoose_pro_italic-trial-webfont.woff2")
+      format("woff2"),
+    url("../font/cocogoose_pro/cocogoose_pro_italic-trial-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansTTFLight";
+  src: url("../font/gmarket-light/GmarketSansTTFLight.eot");
+  src: url("../font/gmarket-light/GmarketSansTTFLight.eot")
+      format("embedded-opentype"),
+    url("../font/gmarket-light/GmarketSansTTFLight.svg") format("svg"),
+    url("../font/gmarket-light/GmarketSansTTFLight.ttf") format("truetype"),
+    url("../font/gmarket-light/GmarketSansTTFLight.woff") format("woff"),
+    url("../font/gmarket-light/GmarketSansTTFLight.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Spoqa Han Sans Regular";
+  src: url("../font/spoqaweb/Spoqa Han Sans Regular.eot Han Sans Regular.eot");
+  src: url("../font/spoqaweb/Spoqa Han Sans Regular.eot Han Sans Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/spoqaweb/Spoqa Han Sans Regular.woff2 Han Sans Regular.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SpoqaHanSans-Regular";
+  src: url("../font/spoqaweb/SpoqaHanSans-Regular.svg") format("svg"),
+    url("../font/spoqaweb/SpoqaHanSans-Regular.ttf") format("truetype"),
+    url("../font/spoqaweb/SpoqaHanSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "GmarketSansTTFMedium";
+  /* height: 4000px; */
+}
+
+html,
+body {
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.font-bold {
+  font-weight: bold;
+}
+.title-font,
+.font-italic {
+  font-family: "cocogoose_proitalic";
+  color: #6a6a6a;
+  font-size: 40px;
+}
+.title-upper {
+  text-transform: uppercase;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  float: none;
+}

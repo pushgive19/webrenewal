@@ -1,0 +1,70 @@
+.find__title {
+  text-align: center;
+  height: 60px;
+}
+.find__list {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.find__item {
+  margin-right: 20px;
+}
+.find__item:last-child {
+  margin-right: 0px;
+}
+.find__item-title.title-font {
+  font-size: 22px;
+  color: #d0101b;
+  padding: 25px 0 12px 0;
+  letter-spacing: 1px;
+}
+
+.find__item-content {
+  font-family: "GmarketSansTTFLight";
+  font-size: 16px;
+  color: #666666;
+  line-height: 19px;
+}
+.find__item-img {
+  width: 285px;
+  height: 285px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find__item-img img {
+  display: block;
+  width: 285px;
+  height: 285px;
+  transition: transform 2s;
+}
+.find__item-img img:hover {
+  transform: scale(1.2);
+  transition: all 10s ease-in-out;
+}
+.find__slide {
+  position: relative;
+  overflow: hidden;
+  height: 430px;
+}
+div.find__pager.swiper-pagination-bullets {
+  bottom: 0px;
+}
+.find__pager .swiper-pagination-bullet {
+  /* opacity: 1; */
+  /* transition: background 0.2s ease-in-out; */
+}
+.find__pager .swiper-pagination-bullet-active {
+  background: #d0101b;
+}
+.find__pager .swiper-pagination-bullet:hover {
+  /* background: rgba(209, 16, 25, 0.5);
+  opacity: 1; */
+}
+.find__pager span:not(.swiper-pagination-bullet-active):hover {
+  background: rgba(209, 16, 25);
+}
